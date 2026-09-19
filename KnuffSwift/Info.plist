@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Knuff Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array><string>com.knuffapp.document</string></array>
+		</dict>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array><string>public.json</string></array>
+			<key>UTTypeDescription</key>
+			<string>Knuff Document</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.knuffapp.document</string>
+			<key>UTTypeTagSpecification</key>
+			<dict><key>public.filename-extension</key><array><string>knuff</string></array></dict>
+		</dict>
+	</array>
+	<key>NSBonjourServices</key>
+	<array><string>_knuff._tcp</string></array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Knuff discovers nearby test devices that advertise their push notification token.</string>
+</dict>
+</plist>
