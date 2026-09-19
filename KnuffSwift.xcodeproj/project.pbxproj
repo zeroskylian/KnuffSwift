@@ -16,6 +16,7 @@
 		A10000000000000000000008 /* KnuffSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* KnuffSwiftTests.swift */; };
 		A10000000000000000000009 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* XCTest.framework */; };
 		A1000000000000000000000A /* KnuffSwift.app in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* KnuffSwift.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1000000000000000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		A20000000000000000000009 /* KnuffSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnuffSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2000000000000000000000A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
 		A2000000000000000000000B /* KnuffSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnuffSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 
 /* Begin PBXGroup section */
 		A70000000000000000000001 = {isa = PBXGroup; children = (A70000000000000000000002 /* KnuffSwift */, A70000000000000000000003 /* KnuffSwiftTests */, A70000000000000000000004 /* Frameworks */, A70000000000000000000005 /* Products */); sourceTree = "<group>"; };
-		A70000000000000000000002 /* KnuffSwift */ = {isa = PBXGroup; path = KnuffSwift; sourceTree = "<group>"; children = (A20000000000000000000001, A20000000000000000000002, A20000000000000000000003, A20000000000000000000004, A20000000000000000000005, A20000000000000000000006, A20000000000000000000007); };
+		A70000000000000000000002 /* KnuffSwift */ = {isa = PBXGroup; path = KnuffSwift; sourceTree = "<group>"; children = (A20000000000000000000001, A20000000000000000000002, A20000000000000000000003, A20000000000000000000004, A20000000000000000000005, A20000000000000000000006, A20000000000000000000007, A2000000000000000000000C); };
 		A70000000000000000000003 /* KnuffSwiftTests */ = {isa = PBXGroup; path = KnuffSwiftTests; sourceTree = "<group>"; children = (A20000000000000000000008); };
 		A70000000000000000000004 /* Frameworks */ = {isa = PBXGroup; children = (A2000000000000000000000A); name = Frameworks; sourceTree = "<group>"; };
 		A70000000000000000000005 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000009, A2000000000000000000000B); name = Products; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A90000000000000000000002 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A90000000000000000000002 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000B /* Assets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
 		A90000000000000000000004 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXResourcesBuildPhase section */
 

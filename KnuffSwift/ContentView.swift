@@ -50,7 +50,8 @@ struct ContentView: View {
                 } label: {
                     Text(selectedIdentity?.name ?? "Choose Certificate…")
                         .lineLimit(1)
-                        .frame(maxWidth: 320, alignment: .trailing)
+                        .truncationMode(.tail)
+                        .frame(width: 320, alignment: .center)
                 }
                 .help("Choose an Apple Push Services identity from your login keychain")
             }
@@ -172,6 +173,8 @@ struct ContentView: View {
                     systemImage: "person.badge.key",
                     description: Text("Import an Apple Push Services certificate and its private key into Keychain Access, then refresh.")
                 )
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+                .multilineTextAlignment(.center)
             } else {
                 List(identities, selection: Binding(
                     get: { selectedIdentity?.id },
