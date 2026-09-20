@@ -1,6 +1,6 @@
 # KnuffSwift
 
-A native Swift and SwiftUI recreation of Knuff, the macOS APNs debugging tool. Write by Codex
+A native Swift and SwiftUI recreation of [Knuff](https://github.com/KnuffApp/Knuff.git), the macOS APNs debugging tool. Write by Codex
 
 ## What was modernized
 
